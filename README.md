@@ -63,9 +63,7 @@ Upload the provided Arduino sketch using the Arduino IDE.
 Open the Serial Monitor at 9600 baud to debug if needed.
 Power the circuit using the 12V adapter and observe the fan response and LCD display.
 
-📸 Demo
-![Smart Fan Project](ProjectVideo.mp4)
-
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1D5YxW6XlhKzXq20ri7BzS9HEFsjns3lh/view?usp=sharing)
 
 ## Future Improvements
     - Add humidity display.
