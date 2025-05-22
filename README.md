@@ -39,31 +39,38 @@ This project demonstrates a temperature-based fan control system using an Arduin
 ## How It Works
 
 The DHT11 sensor reads the ambient temperature every 2 seconds.
+
 The fan speed is adjusted via PWM based on predefined temperature thresholds:
-Below 22°C → Low Speed
-22°C to 25°C → Medium Speed
-Above 25°C → Maximum Speed
+      - Below 22°C → Low Speed
+      - 22°C to 25°C → Medium Speed
+      - Above 25°C → Maximum Speed
+  
 The LCD displays both the current temperature and motor status.
+
 The L298N driver handles the power required by the 12V fan safely.
 
 ## 💻 Code Overview
 The Arduino sketch uses the following libraries:
 
 #include <LiquidCrystal_I2C.h>
+
 #include <Adafruit_Sensor.h>
+
 #include <DHT.h>
+
 #include <DHT_U.h>
+
 #include <Wire.h>
 
 Make sure to install these libraries via the Arduino Library Manager before uploading the code.
+ 
+## Getting Started
+- Connect all components as described above.
+- Upload the provided Arduino sketch using the Arduino IDE.
+- Open the Serial Monitor at 9600 baud to debug if needed.
+- Power the circuit using the 12V adapter and observe the fan response and LCD display.
 
-🚀 Getting Started
-Connect all components as described above.
-Upload the provided Arduino sketch using the Arduino IDE.
-Open the Serial Monitor at 9600 baud to debug if needed.
-Power the circuit using the 12V adapter and observe the fan response and LCD display.
-
-[▶️ Watch Demo Video](https://drive.google.com/file/d/1D5YxW6XlhKzXq20ri7BzS9HEFsjns3lh/view?usp=sharing)
+## [▶️ Watch Demo Video](https://drive.google.com/file/d/1D5YxW6XlhKzXq20ri7BzS9HEFsjns3lh/view?usp=sharing)
 
 ## Future Improvements
     - Add humidity display.
