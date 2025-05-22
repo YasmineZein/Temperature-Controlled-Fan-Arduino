@@ -64,7 +64,7 @@ Open the Serial Monitor at 9600 baud to debug if needed.
 Power the circuit using the 12V adapter and observe the fan response and LCD display.
 
 📸 Demo
-![Smart Fan Project]([Project_Video.mp4](https://github.com/YasmineZein/Temperature-Controlled-Fan-Arduino/blob/main/Project%20Video.mp4))
+![Smart Fan Project](ProjectVideo.mp4)
 
 
 ## Future Improvements
